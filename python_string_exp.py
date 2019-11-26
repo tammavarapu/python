@@ -69,6 +69,9 @@ print("Emp sal is decimal :",sal.isdecimal())
 # str.lstrip()
 # str.rstrip()
 
+strip_exp = 'c emp name c'
+strip_exp.strip('c')
+
 # str.center()
 
 # str.ljust()
