@@ -53,24 +53,59 @@ sal = '25000'
 print("Emp Name is alpha :",name.isalpha())
 print("Emp Name is alpha numeric :",name.isalnum())
 print("Emp sal is decimal :",sal.isdecimal())
+# str.isnumeric()
+
 # str.space()
+
 # str.title()
+# str.istitle()
+# str.capitalize()
+
 # str.startswith('python')
 # str.endswith('learning')
 # str.find('Python')
+
 # str.strip()
 # str.lstrip()
 # str.rstrip()
+
 # str.center()
+
 # str.ljust()
 # str.rjust()
+
 # str.index('p') 
+
 # str.split()
+# str.split(sep='|')
+# str.splitlines()
+
 # str.replace('Machine','AI')
+
+# 
+
 # len(str)
 # print(''.join(reversed(name)))
 # str1.join(str2)
 # str.count()
+
+# Converts unicode char to int.
+unicode = '5'
+unic_code = ord(unicode)
+unic_code
+
+unichar = 'Z'
+unic_char = ord(unichar)
+unic_char
+# ord('0'), ord('9')
+# ord('A'), ord('Z')
+# ord('a'), ord('z')
+
+# Converts int to unicode char.
+unicode = 5
+unic_code = chr(unicode)
+unic_code
+
 print('******************************************************')
 
 
