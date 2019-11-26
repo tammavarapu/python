@@ -1,47 +1,24 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Python string examples.
-singlequote = 'sambasivarao'
+singlequote = 'Python Learning'
 
-doublequote = "Tammavarapu"
+doublequote = "Machine Learning"
 
-triplequote = """nawabupet,ndg(bo)
-                 krishna,Ap-521185"""
-
-
-# In[2]:
-
+triplequote = """---"""
 
 # Strng slicing
 print(singlequote[:])                
 print(doublequote[:])
 print(triplequote[:])
 
-
-# In[3]:
-
-
 # new strings can be reassigned to the same name
-name = 'samba'
-name = 'sambasivarao'
+name = 'python'
+name = 'python programing'
 
 print(name)
-
-
-# In[4]:
-
 
 # Con't deleate and update a string but use build-in function del to remove string.
 str_name=''
 del str_name
-
-
-# In[5]:
-
 
 # Formatting of Strings
 "{} {} {}".format('Geeks', 'For', 'Life')
@@ -50,10 +27,6 @@ del str_name
 "{0:b}".format(16) # Formatting of Integers
 "{0:e}".format(165.6458) # Formatting of Floating
 "{0:.2f}".format(1/6) #  Rounding off Integers 
-
-
-# In[6]:
-
 
 # String methods examples
 str = "Python Machine Learning"
@@ -73,12 +46,8 @@ lower = str.lower()
 print("string in lowercase   : ",lower.islower())
 print('******************************************************')
 
-
-# In[8]:
-
-
-name = 'samba'
-empid = 'TS538345'
+name = 'devi'
+empid = 'TS638375'
 sal = '25000'
 
 print("Emp Name is alpha :",name.isalpha())
@@ -103,10 +72,6 @@ print("Emp sal is decimal :",sal.isdecimal())
 # str1.join(str2)
 # str.count()
 print('******************************************************')
-
-
-# In[ ]:
-
 
 
 
