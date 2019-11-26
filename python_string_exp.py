@@ -31,6 +31,10 @@ del str_name
 # String methods examples
 str = "Python Machine Learning"
 
+# Checks if string contains a substring.
+<bool> = <sub_str> in <str>
+bool_val = 'Machine' in str
+
 print('***********String upper case examples*****************')
 # uppercase
 print("string is uppercase   : ",str.isupper())
